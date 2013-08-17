@@ -11,7 +11,7 @@ body{
 	font-size: 50px;
 	text-align:center;
 	color:#666666;
-	margin:50px 0 0 0;
+	margin:30px 0 0 0;
 	
 }
 .logo{
@@ -175,7 +175,7 @@ ul.workList{
 }
 .sign{
 	margin:5px 0 5px 0;
-	height:50px;
+	height:25px;
 	color:#999999;
 	font-family:Tahoma;
 	font-size: 12px;
