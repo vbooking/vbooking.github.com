@@ -1,0 +1,187 @@
+html{ 
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+	font-size: 20px;
+	color:#333333;
+}
+.title{
+	font-size: 50px;
+	text-align:center;
+	color:#666666;
+	margin:50px 0 0 0;
+	
+}
+.logo{
+	display:block;
+	margin:20px auto;
+	width:92px;
+	height:101px;
+	
+	overflow:hidden;
+}
+
+.breath {
+	text-indent:-999em;
+	height:4px;
+	line-height: 4px;
+	width: 50px;
+	overflow:hidden;
+
+	margin: 10px auto;
+	background: #99dd33;
+
+	opacity:0.1;
+	-webkit-box-shadow: 0 0 5px #f1f1f1;
+	-moz-box-shadow: 0 0 5px #f1f1f1;
+	-ms-box-shadow: 0 0 5px #f1f1f1;
+	-o-box-shadow: 0 0 5px #f1f1f1;
+	box-shadow: 0 0 5px #f1f1f1;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	color: #fff;
+
+	-webkit-animation-name: breath;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'breath' {
+	from {
+		opacity:0.1;
+	}
+	50% {
+		opacity:1;
+	}
+	to {
+		opacity:0.1;
+	}
+}
+a.helpus{
+	display:block;
+	margin: 20px auto;
+	
+	text-indent: -999em;
+	background: url(./image/alipay_btn.jpg) no-repeat 6px 3px #fff;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	
+	-webkit-transition: border 500ms ease-in 0ms;
+	-moz-transition: border 500ms ease-in 0ms;
+	-ms-transition: border 500ms ease-in 0ms;
+	-o-transition: border 500ms ease-in 0ms;
+	transition: border 500ms ease-in 0ms;
+	
+}
+a.helpus:hover {
+	border: 1px solid #0f87d3;
+	-webkit-transition: border 300ms ease-in 0ms;
+	-moz-transition: border 300ms ease-in 0ms;
+	-ms-transition: border 300ms ease-in 0ms;
+	-o-transition: border 300ms ease-in 0ms;
+	transition: border 300ms ease-in 0ms;
+}
+
+.workListBoard{
+	width:500px;
+	min-height:300px;
+	margin:0 auto;
+	
+}
+.workListBoard h3{
+	font-size: 30px;
+	font-weight: normal;
+	text-align:center;
+	color:#999999;
+
+}
+ul.workList{
+	
+	padding:0;
+}
+.workList li{
+	
+	font-size: 20px;
+	text-align:center;
+	list-style:none;
+	
+}
+
+
+.workList a:link,
+.workList a:visited,
+.workList a:active{
+	display:block;
+	color:#5FB7E9;
+	text-decoration:none;
+	line-height:36px;
+	height:36px;
+
+	-webkit-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-moz-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-ms-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-o-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
+
+
+}
+
+
+.workList a:hover,
+.workList a:focus{
+	outline:none;	
+	color:white;
+	background:#BBD631;
+	-webkit-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-moz-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-ms-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-o-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+}
+
+
+.new {
+	color:#FF0052;
+	font-size:12px;
+	margin:auto 0 0 10px;
+	vertical-align: super;
+}
+
+.copyright{
+	margin:50px 0 0 0;
+	height:50px;
+	color:#999999;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+.copyright a{
+	color:#999999;
+	text-decoration:none;
+}
+
+.copyright a:hover,
+.copyright a:focus{
+	outline:none;
+	text-decoration:underline;
+}
