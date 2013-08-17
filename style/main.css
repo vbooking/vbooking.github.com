@@ -173,7 +173,14 @@ ul.workList{
 	font-size: 12px;
 	text-align:center;
 }
-
+.sign{
+	margin:5px 0 5px 0;
+	height:50px;
+	color:#999999;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
 .copyright a{
 	color:#999999;
 	text-decoration:none;
