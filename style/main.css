@@ -6,6 +6,7 @@ body{
 	font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
 	color:#333333;
+	text-align: left;
 }
 .title{
 	font-size: 50px;
@@ -64,8 +65,7 @@ body{
 }
 a.helpus{
 	display:block;
-	margin: 20px auto;
-	
+	margin: 20px;	
 	text-indent: -999em;
 	background: url(./image/alipay_btn.jpg) no-repeat 6px 3px #fff;
 	width: 100px;
@@ -94,9 +94,11 @@ a.helpus:hover {
 }
 
 .workListBoard{
+    text-algin:left;
 	width:500px;
 	min-height:300px;
 	margin:0 auto;
+	text-align:left;	
 	
 }
 .workListBoard h3{
@@ -106,16 +108,13 @@ a.helpus:hover {
 	color:#999999;
 
 }
-ul.workList{
-	
+ul.workList{	
 	padding:0;
 }
-.workList li{
-	
+.workList li{	
 	font-size: 20px;
 	text-align:center;
-	list-style:none;
-	
+	list-style:none;	
 }
 
 
@@ -139,9 +138,6 @@ ul.workList{
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
-	
-
-
 }
 
 
